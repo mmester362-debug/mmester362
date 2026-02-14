@@ -1,4 +1,4 @@
-const phoneNumber = "212776048971";
+const phoneNumber = "212753253681";
 
 const products = [
   {name:"Luxury Hoodie", price:41, image:"images/hoodie.jpg"},
@@ -32,4 +32,5 @@ function openPopup(name,price,image){
 
 function closePopup(){
   document.getElementById("popup").style.display="none";
+
 }
