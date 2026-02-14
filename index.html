@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wool Style VIP</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <img src="images/logo.png.jpeg" alt="Wool Style logo">
+  </div>
+</header>
+
+<section class="hero">
+  <video autoplay muted loop class="bg-video">
+    <source src="videos/fashion.mp4" type="video/mp4">
+  </video>
+  <div class="hero-content">
+    <h1>Wool Style</h1>
+    <p>Luxury Fashion For Men & Women</p>
+    <a href="#shop" class="btn">Shop Now</a>
+  </div>
+</section>
+
+<section class="products" id="shop"></section>
+
+<!-- Popup Product -->
+<div class="popup" id="popup">
+  <div class="popup-content">
+    <span class="close" onclick="closePopup()">×</span>
+    <img id="popup-img">
+    <h2 id="popup-title"></h2>
+    <p id="popup-price"></p>
+    <div class="stars">⭐⭐⭐⭐⭐</div>
+    <button id="orderBtn">اطلب عبر واتساب</button>
+  </div>
+</div>
+
+<!-- Floating WhatsApp -->
+<a href="https://wa.me/212600000000" class="whatsapp-float" target="_blank">💬</a>
+
+<footer>
+© 2026 Wool Style VIP
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
